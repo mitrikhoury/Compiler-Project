@@ -1,0 +1,18 @@
+package project;
+
+
+/**
+ * Enum class for token types (Reserved words + Keywords)
+ */
+
+public enum TokenType {
+
+	EXIT, INCLUDE , CONST, VAR, INT , FLOUT, CHAR , FUNCTION , 
+	NEWB , ENDB , MOD , DIV, CIN , COUT, IF, ELSE, WHILE ,
+	REPEAT , UNTIL, CALL, COMMA, SEMICOLON, ADD, SUBTRACT, 
+	MULTIPLY, DIVIDE , ASSIGN, LEFT_SHIFT ,RIGHT_SHIFT ,EOF , IDENTIFIER ,COLON, DOT
+	,LPAREN ,RPAREN , EQUAL , LESS_EQUAL,LESS ,NOT_EQUAL,GREATER_EQUAL,GREATER ,INVALID
+	,HASH  
+}
+
+

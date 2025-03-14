@@ -1,0 +1,32 @@
+#include <test>;
+
+const int count = 0;
+var float idk,idk2;
+
+function GCD;
+	const int hello = 1.1;
+	newb
+		if( a => 10)
+			if( b => 20)
+				if( c => 30)
+					if( d => 40)
+						if( e => 50)
+							if( f => 60)
+								cin >> ahmad
+							else
+								cout << hamed
+					else
+						cin >> ahmad
+			else
+				cin >> ahmad
+		;
+	endb
+	;
+
+newb
+	count := count + 1
+	;
+endb
+exit
+	
+				

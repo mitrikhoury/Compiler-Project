@@ -1,0 +1,40 @@
+#include <math> ; 
+const int number = 10 ;
+var int num , num1 ;
+function opp ;
+var float num2 ;
+newb
+num2 := 10.5 ;
+endb;
+newb
+
+if(num1 > 10) 
+e:= 4
+else 
+if(num1 > 10) 
+e:= 4
+else 
+if(num <11 )
+e:= 4;
+
+
+if(num1 > 10) 
+	if(num2 > 10) 
+		e:= 4
+		else
+ 		if(num1 > 10) 
+e:= 4
+else 
+if(num1 > 10) 
+e:= 4;
+
+num1 := 9 ;
+while(num1>10)
+newb
+num1 := 9 ;
+num := 10 ;
+endb;
+repeat num := 10 ; until num > num1 ;
+call opp ;
+endb
+exit

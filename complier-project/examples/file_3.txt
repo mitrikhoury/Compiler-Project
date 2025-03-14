@@ -1,0 +1,110 @@
+#include <stdio>;
+#include <stdlib>;
+#include <io>;
+const int baseValue = 25;
+const float scaleFactor = 2.71828;
+const int limit = 20;
+const int step = 3;
+const int decrement = 2;
+var int a, b,j, c ;
+var float computedResult;
+var char flag;
+function setup;
+var int i ;
+newb
+    i := baseValue div step;
+    a := i;
+    b := limit;
+    c := 0;
+endb;
+
+function readInput;
+newb
+    cout << flag;
+    cin >> c;
+    cout << flag;
+    cin >> flag;
+endb;
+
+function processData;
+var int tempVal ;
+newb
+    tempVal := (b mod limit) + (a div step);
+    computedResult := scaleFactor * (a + c) - tempVal;
+endb;
+function adjustValues;
+newb
+    if (c =< 0) x:=(x+b)
+    else
+        if (c > 50)
+            c:= c - 10
+        else
+            c := c + 5;
+
+
+    if (a =! 0)
+        a := a * 2;
+endb;
+
+function respond;
+newb
+    if (flag => flag)
+        cout << flag
+    else
+        if (flag => flag)
+            cout << flag;
+
+endb;
+newb
+    call setup;
+    call readInput;
+
+    if (c > 0)
+        call processData
+    else
+        cout << flag;
+
+    cout << flag;
+    cout << computedResult;
+
+    call adjustValues;
+
+
+    while (a < limit) newb
+        a := a + 1;
+        cout << a;
+
+        if (a => 5)
+            cout << flag
+        else
+            if (a > limit)
+                cout << flag;
+    endb;
+
+    flag := 5;
+    call respond;
+
+
+    repeat
+        b := b - decrement;
+        cout << b;
+    until b =< a;
+
+
+    newb
+        j := 0;
+
+        while (j < 5) newb
+            j := j + 1;
+            cout << j;
+
+
+            if (j => 0)
+                cout << flag
+            else
+                cout << flag;
+        endb;
+    endb;
+
+endb
+exit

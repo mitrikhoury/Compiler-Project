@@ -1,0 +1,127 @@
+#include <stdio>;
+#include <stdlib>;
+#include <mathlib>;
+
+const int maxCount = 50;
+const int offset = 5;
+const float pi = 3.141592;
+const int divisor = 2;
+const int largeVal = 200;
+
+var int x, y, z , i , j,innerVar ;
+var float radius, area;
+var char response;
+
+function initialize;
+newb
+    i := 0;
+    j := maxCount div divisor;
+    x := i;
+    y := j;
+    z := largeVal;
+endb;
+
+function readValues;
+newb
+    cout << radius;
+    cin >> radius;
+
+    cout << radius;
+    cin >> x;
+
+    cout << radius;
+    cin >> y;
+endb;
+
+function computeComplexArea;
+newb
+    radius := (x + offset) div divisor;
+    area := pi * radius * radius + radius - (y mod radius);
+endb;
+
+function adjustValues;
+newb
+
+    if (x =< 0)
+        x := 6*(a * mod1 -10) 
+else 
+   cout << qais;
+        
+    if (y > 100)
+        y := y - 50;
+endb;
+
+function checkResponse;
+newb
+    if (response =! 5)
+        cout << radius
+    else
+        if (response =! 3)
+            cout << radius
+        else
+            cout << radius;
+endb;
+
+newb
+    call initialize;
+    call readValues;
+
+    if (radius > 0)
+        call computeComplexArea
+    else
+        cout << radius;
+
+    cout << radius;
+    cout << area;
+
+
+    call adjustValues;
+
+
+    while (x < 0) newb
+        x := x + 1;
+        cout << x;
+
+        if (x =!3)
+            cout << radius
+        else
+            if (x => 0)
+                cout << radius;
+    endb;
+
+
+    response := 5;
+    call checkResponse;
+
+
+    repeat newb
+        y := y - 10;
+        cout << radius;
+        cout << y;
+
+
+        newb
+            innerVar := y + x;
+            if (innerVar => largeVal)
+                cout << radius
+            else
+                cout << radius;
+        endb;
+    endb; until y =< 0;
+
+
+    while (z > 0) newb
+        z := z - 20;
+
+        if (z < 100)
+            cout << radius;
+
+
+        repeat
+            x := x + 2;
+            cout << x;
+        until x => 60;
+    endb;
+
+endb
+exit
